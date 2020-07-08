@@ -1,0 +1,3 @@
+DROP TABLE items IF EXISTS;
+CREATE TABLE IF NOT EXISTS items (id bigint, name VARCHAR(255), price int, PRIMARY KEY (id));
+INSERT INTO items (id, name, price) VALUES (1, 'Milk', 20), (2, 'Bread', 10), (3, 'Meat', 200), (4, 'Butter', 90), (5, 'Chocolate', 70), (6, 'Fish', 180), (7, 'Potato', 15), (8, 'Carrot', 25), (9, 'Pumpkin', 50), (10, 'Pea', 10), (11, 'Almond', 110), (12, 'Apple', 30), (13, 'Melon', 80), (14, 'Orange', 40), (15, 'Lemon', 50), (16, 'Pecan', 70), (17, 'Walnut', 80), (18, 'Raspberry', 90), (19, 'Lime', 90), (20,'Plum', 50);
